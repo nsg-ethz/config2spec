@@ -54,7 +54,7 @@ $ python run_c2s.py <scenario path> <backend path> <temp batfish path> -mf <max 
 scenario (e.g., `/home/user/config2spec/scenarios/bics/ospf`).
 
 * __backend path__ - The path to the `.jar` of the Batfish backend
-(e.g., `/home/user/batfish/projects/backend/target/backend-0.36.0.jar`).
+(e.g., `/home/user/batfish/projects/backend/target/backend-bundle-0.36.0.jar`).
 
 * __temp batfish path__ - The path to an directory where batfish can
 store some temporary data.

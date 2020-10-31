@@ -25,8 +25,7 @@ $ bash setup.sh <GitHub path> <repo name> <Config2Spec path>
 * __GitHub path__ - Specify the full path to the directory in which you
 want to clone the repository.
 
-* __repo name__ - Specify the name you want to give the local clone of
-the repository (e.g., c2s_batfish).
+* __repo name__ - Specify the name of the directory in which you have cloned batfish (e.g., c2s_batfish).
 
 * __Config2Spec path__ - Specify the full path of the Config2Spec repository.
 
