@@ -51,7 +51,7 @@ $ python run_c2s.py <scenario path> <backend path> <temp batfish path> -mf <max 
 #### Arguments
 
 * __scenario path__ - The path to the directory containing the
-scenario (e.g., `/home/user/config2spec/scenarios/bics`).
+scenario (e.g., `/home/user/config2spec/scenarios/bics/ospf`).
 
 * __backend path__ - The path to the `.jar` of the Batfish backend
 (e.g., `/home/user/batfish/projects/backend/target/backend-0.36.0.jar`).
@@ -65,7 +65,7 @@ the specification should include (e.g., for up to 1 failure set `-mf 1`).
 ### Example
 
 ```bash
-$ python run_c2s.py scenarios/bics ~/batfish-73946b2f1bdea5f1146e4db4f2586e071da752df/projects/backend/target/backend-bundle-0.36.0.jar ~/tmp -mf 1
+$ python run_c2s.py scenarios/bics/ospf ~/batfish-73946b2f1bdea5f1146e4db4f2586e071da752df/projects/backend/target/backend-bundle-0.36.0.jar ~/tmp -mf 1
 ```
 
 
