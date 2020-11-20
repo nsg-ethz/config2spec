@@ -82,5 +82,10 @@ if __name__ == '__main__':
     # completely kill Minesweeper
     ms_manager.stop(0, force_stop=True)
 
+    # store the specification
+    dump_file = "policies.csv"
+    dump_path = os.path.join(scenario_path, dump_file)
+    policy_db.dump(dump_path)
+
     spec_size = policy_db.num_policies(status=PolicyStatus.HOLDS)
     logger.info('Done with everything - The specification consists of {} policies.'.format(spec_size))
