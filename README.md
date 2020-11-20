@@ -48,6 +48,12 @@ You can run it the following way:
 $ python run_c2s.py <scenario path> <backend path> <temp batfish path> -mf <max failures>
 ```
 
+_Note:_ The specification is stored in a CSV file under the scenario path. 
+All policies which Config2Spec encountered are part of this file. To only 
+consider the policies that are part of the specification, filter the policies 
+based on the column "Status": All policies that have the status 
+`PolicyStatus.HOLDS` are part of the specification.
+
 #### Arguments
 
 * __scenario path__ - The path to the directory containing the
