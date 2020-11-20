@@ -17,22 +17,20 @@ entire project with [Maven](https://maven.apache.org/).
 Use the script as follows:
 
 ```bash
-$ bash setup.sh <GitHub path> <repo name> <Config2Spec path>
+$ bash setup.sh <repo path> <Config2Spec path>
 ```
 
 #### Arguments
 
-* __GitHub path__ - Specify the full path to the directory in which you
-want to clone the repository.
-
-* __repo name__ - Specify the name of the directory in which you have cloned batfish (e.g., c2s_batfish).
+* __repo path__ - Specify the full path to the directory in which you have cloned 
+the batfish repository (e.g., c2s_batfish) or unzipped the archive provided above.
 
 * __Config2Spec path__ - Specify the full path of the Config2Spec repository.
 
 #### Example
 
 ```bash
-$ bash setup.sh new /home/user/GitHub c2s_batfish /home/user/GitHub/config2spec
+$ bash setup.sh new /home/user/GitHub/c2s_batfish /home/user/GitHub/config2spec
 ```
 
 ## 2. Installing Prerequisites
