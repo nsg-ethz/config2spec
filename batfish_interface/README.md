@@ -30,7 +30,7 @@ the batfish repository (e.g., c2s_batfish) or unzipped the archive provided abov
 #### Example
 
 ```bash
-$ bash setup.sh new /home/user/GitHub/c2s_batfish /home/user/GitHub/config2spec
+$ bash setup.sh /home/user/GitHub/c2s_batfish /home/user/GitHub/config2spec
 ```
 
 ## 2. Installing Prerequisites
